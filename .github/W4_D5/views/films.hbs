@@ -1,0 +1,21 @@
+AÑO: {{movies.0.director}}
+<table>
+    <tr>
+        <th>titulo</th>
+        <th>año</th>
+        <th>director</th>
+        <th>duración</th>
+        <th>genero</th>
+        <th>rate</th>
+    </tr>
+    {{#each movies}}
+    <tr>
+        <th>{{title}}</th>
+        <th>{{year}}</th>
+        <th>{{director}}</th>
+        <th>{{duration}}</th>
+        <th>{{genre}}</th>
+        <th>{{rate}}</th>
+    </tr>
+    {{/each}}
+</table>
